@@ -1,0 +1,186 @@
+.content-buku {
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #6d6d6d;
+  }
+
+  .content-buku ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+  }
+  .content {
+    display: flex;
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center; /* Memusatkan secara vertikal */
+    height: 100vh; /* Menetapkan tinggi sesuai dengan tinggi viewport */
+}
+
+.content-buku {
+    max-width: 1200px; /* Atur lebar maksimum konten jika diinginkan */
+    width: 100%; /* Atur lebar konten agar mengisi ruang yang tersedia */
+}
+
+
+
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .kotak-putih {
+    /* border: #000 1px solid; */
+    width: 480px;
+    height: 480px;
+    background-color: white;
+    position: relative;
+  }
+
+  .kotak-1 {
+    width: 158px;
+    height: 158px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+  }
+
+  .kotak-2 {
+    width: 158px;
+    height: 158px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 0;
+    top: 160px;
+    border-radius: 10px;
+  }
+
+  .kotak-3 {
+    width: 158px;
+    height: 158px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 0px;
+    top: 320px;
+    border-radius: 10px;
+  }
+
+  .kotak-4 {
+    width: 158px;
+    height: 158px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 160px;
+    top: 320px;
+    border-radius: 10px;
+  }
+
+  .kotak-5 {
+    width: 158px;
+    height: 158px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 320px;
+    top: 320px;
+    border-radius: 10px;
+  }
+
+  .kotak-6 {
+    width: 318px;
+    height: 318px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    border-radius: 10px;
+  }
+
+  .content-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-product {
+    width: 90%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  .text-product h1 {
+    /* border: #000 1px solid; */
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .text-product p {
+    /* border: #000 1px solid; */
+    width: 100%;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .content-product .button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .button > ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button > ul li {
+    display: flex;
+  }
+
+  .button .btn-shopee {
+    width: 100%;
+    border-radius: 100px;
+  }
+
+  .btn-shopee button {
+    width: 210px;
+    height: 70px;
+    border-radius: 100px;
+    border-left: #000 1px solid;
+    border-top: #000 1px solid;
+    border-right: #000 4px solid;
+    border-bottom: #000 4px solid;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #6d6d6d;
+    background-color: #ffdebb;
+    cursor: pointer;
+  }
+
+  .button .btn-chat-admin {
+    width: 100%;
+    border-radius: 100px;
+  }
+
+  .btn-chat-admin button {
+    width: 210px;
+    height: 70px;
+    border-radius: 100px;
+    border-left: #000 1px solid;
+    border-top: #000 1px solid;
+    border-right: #000 4px solid;
+    border-bottom: #000 4px solid;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #6d6d6d;
+    background-color: #f8baad;
+    cursor: pointer;
+  }

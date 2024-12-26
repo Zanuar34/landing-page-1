@@ -1,0 +1,1834 @@
+
+.navbar-logo {
+  width: 171.2px;
+  height: 50px;
+  margin-left: 30px;
+}
+.navbar-logo img {
+  max-width: 100%;
+  margin-left: 3%;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+  /* padding-top: 1%; */
+  gap: 4rem;
+}
+
+.links a {
+  position: relative;
+  padding-bottom: 0.75rem;
+  color: black;
+}
+
+.links a:hover {
+  font-weight: bold;
+}
+
+.links a::after {
+  font-weight: bold;
+}
+
+.links a:active {
+  color: #d84a4f;
+}
+
+.button-beli {
+  display: flex;
+  position: relative;
+}
+
+.asset-beli {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  /* top: 0;
+    left: 0; */
+}
+
+.asset-beli img {
+  width: 50px;
+}
+
+.button-beli ul {
+  display: flex;
+}
+
+.button-beli ul li {
+  display: flex;
+  flex-direction: row;
+  position: inherit;
+}
+
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 50px;
+  border-radius: 100px;
+  border-top: #B1373D 1px solid;
+  border-left: #B1373D 1px solid;
+  border-right: #B1373D 4px solid;
+  border-bottom: #B1373D 4px solid;
+  font-weight:  500;
+  font-size: 15px;
+  background-color: #F26E5F;
+  display: flex;
+}
+
+.button-beli:hover {
+  opacity: 0.8;
+}
+
+.button-beli:active {
+  opacity: 0.3 ;
+}
+
+
+
+/* 
+per container!!!! */
+  
+  .awalan ul {
+    /* border: #000 solid 1px; */
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+  }
+  
+  .awalan img {
+    /* max-width: 100%; */
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+  
+  .awalan .img-card { 
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  
+  .awalan .title {
+    /* border: #000 1px solid; */
+    width: 443px;
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke: 3.4px #896464;
+    font-weight: bold;
+    display: flex;
+    line-height: 97px;
+    color: white;
+    padding-left: 5%;
+  }
+  
+  .awalan .sub-title {
+    /* border: #000 1px solid; */
+    margin-top: 10px;
+    padding-left: 5%;
+    font-size: 25px;
+  }
+  
+  .awalan ul li {
+    /* border: blue 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+/* 
+video promosi!!!!!!!!! */
+.content-video img {
+  width: 101%;
+}
+.video-product .btn-play img {
+  width: 100px; /* Ukuran ikon tombol play */
+  height: 100px;
+  filter: brightness(100%); /* Meningkatkan kecerahan ikon */
+}
+
+.video-product .kotak {
+  position: relative; /* Memberikan posisi relatif untuk mengontrol posisi tombol */
+}
+
+.video-product .btn-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(177, 177, 177, 0.5); /* Warna latar belakang semi-transparan */
+  border: none;
+  border-radius: 50%; /* Membuat tombol menjadi lingkaran */
+  padding: 15px; /* Padding untuk memberikan ruang di sekitar ikon */
+  cursor: pointer; /* Mengubah kursor saat mengarah ke tombol */
+  transition: background-color 0.3s ease; /* Animasi perubahan warna latar belakang */
+}
+
+.video-product .btn-play:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang saat dihover */
+}
+
+/* promosii!!!!!! */
+.promosi-buku ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.promosi-buku ul li {
+  /* border: #000 1px solid; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.promosi-buku h1 {
+  /* border: #000 1px solid; */
+  width: 450px;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.promosi-buku button {
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #d4e4f4;
+  border-right: #85acd4 4px solid;
+  border-bottom: #85acd4 4px solid;
+  cursor: pointer;
+  border-radius: 30px;
+  
+  /* margin-right: 100%; */
+}
+
+
+/* 
+  content pertanyaaan!!!!!!!!!!!!!!!! */
+
+  .content-pertanyaan ul {
+    /* border: #000 1px solid; */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  
+  .content-pertanyaan ul li {
+    /* border: #000 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+  }
+  
+  .content-pertanyaan .image {
+    /* border: #000 1px solid; */
+    width: 80%;
+  }
+  
+  .content-pertanyaan img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content-pertanyaan .text-content {
+    /* border: #000 1px solid; */
+    width: 30vw;
+    height: 100vh;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 40px;
+    background-color: #fdf9e5;
+    border-radius: 40px;
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+
+
+
+
+  /* conteenerrr 1122222222222222222222!!!!!!!!!!!!!!!!!!! */
+
+.header-1,
+.header-2 {
+  margin-top: 40px;
+  font-size: 40px;
+  text-align: center;
+  -webkit-text-stroke: 3.4px #896464;
+  color: white;
+}
+
+
+
+.container-1 .header-1,
+.container-2 .header-2 {
+  font-size: 60px;
+  -webkit-text-stroke: 3.4px #896464;
+  color: white;
+}
+
+.container-1 .features-1,
+.container-2 .features-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-1 ul,
+.features-2 ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 400px;
+}
+
+.features-1 ul li,
+.features-2 ul li {
+  /* border: #000 1px solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+
+}
+
+.box-1,
+.box-2 {
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  align-self: normal;
+  /* border: red 1px solid; */
+  min-height: 100px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  min-height: 300px;
+  min-width: 380px;
+}
+
+.box-1 .image-1,
+.box-2 .image-1 {
+  display: none;
+  width: 100%;
+}
+
+.image-1 img, .image-2 img, .image-3 img {
+  width: 100px;
+}
+
+.box-1 .image-panik,
+.box-2 .image-bingung {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  right: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.image-panik img,
+.image-bingung img {
+  width: 100%;
+}
+
+.features-1 .box-1 .card-1, .features-2 .box-2 .card-1 {
+  width: 100%;
+  display: flex;
+  margin-top: 98px;
+  background-color: #fdefb1;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-1 .text-1 {
+  width: 250px;
+  letter-spacing: 3%;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.box-1 .image-2, .box-2 .image-2 {
+  display: none;
+  width: 100%;
+}
+
+.box-1 .image-takut, .box-2 .image-takut-dimarahi {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  right: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.image-takut img, .image-takut-dimarahi img {
+  width: 100%;
+}
+
+.features-1 .box-1 .card-2, .features-2 .box-2 .card-2 {
+  width: 100%;
+  display: flex;
+  margin-top: 98px;
+  background-color: #fdd4d2;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-2 .text-2 {
+  width: 250px;
+  letter-spacing: 3%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.box-1 .image-3, .box-2 .image-3 {
+  display: none;
+  width: 100%;
+}
+
+.box-1 .image-marah, .box-2 .image-mencari-jawaban {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  right: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.image-marah img, .image-mencari-jawaban img {
+  width: 100%;
+}
+
+.features-1 .box-1 .card-3, .features-2 .box-2 .card-3 {
+  /* border: #000 1px solid; */
+  width: 100%;
+  display: flex;
+  margin-top: 98px;
+  background-color: #d4e4f4;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-3 .text-3 {
+  width: 250px;
+  letter-spacing: 3%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.features-1 ul{
+    width: 100%;
+}
+
+
+
+/* berkumpul landing-page!!!!! */
+
+  .berkumpul ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .berkumpul .images-berkumpul {
+    /* border: #000 1px solid; */
+    width: 100%;
+  }
+  
+  .images-berkumpul img {
+    width: 570px;
+    height: 579px;
+  }
+  
+  .berkumpul h4 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #896464;
+  }
+  
+  .berkumpul p {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  /* landing-page bertanya!!!!!!!!! */
+  
+  .content-bertanya ul {
+    display: flex;
+    list-style: none;
+    /* border: #000 1px solid; */
+    padding: 0;
+  }
+  
+  .content-bertanya ul li {
+    /* border: red 1px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+  }
+  
+  .content-bertanya p {
+    width: 400px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 124%;
+    /* border: #000 1px solid; */
+    color: #896464;
+  }
+  
+  .content-bertanya .img-bertanya {
+    width: 100%;
+    display: flex;
+  }
+  
+  .img-bertanya img {
+    /* border: aqua 1px solid; */
+    width: 100%;
+  }
+  .text-content{
+    margin-left: 10px;
+  }
+
+
+
+
+  /* konten buku !!!!!!!!!!!!!! */
+
+/* section > div{
+  border: #e50000 solid 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+   */
+
+   .content {
+    display: flex;
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center; /* Memusatkan secara vertikal */
+    height: 100vh; /* Menetapkan tinggi sesuai dengan tinggi viewport */
+}
+
+.content-buku {
+    width: 100%;
+}
+
+  .content-buku ul {
+    /* border: #000 1px solid; */
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    gap: 3rem;
+  }
+  
+  .content-buku ul li {
+    /* border: #000 1px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+  }
+  
+  .wrap {
+    width: 100%;
+  }
+  
+  .kotak-putih {
+    /* border: #000 1px solid; */
+    width: 580px;
+    height: 580px;
+    background-color: white;
+    position: relative;
+  }
+  
+  .kotak-1 {
+    width: 180px;
+    height: 180px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+  }
+  
+  .kotak-2 {
+    width: 180px;
+    height: 180px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    border-radius: 10px;
+  }
+  
+  .kotak-3 {
+    width: 180px;
+    height: 180px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    border-radius: 10px;
+  }
+  
+  .kotak-4 {
+    width: 180px;
+    height: 180px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    border-radius: 10px;
+  }
+  
+  .kotak-5 {
+    width: 180px;
+    height: 180px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    border-radius: 10px;
+  }
+  
+  .kotak-6 {
+    width: 380px;
+    height: 380px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    border-radius: 10px;
+  }
+  
+  .content-product {
+    /* border: #000 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .text-product {
+    /* border: #000 1px solid; */
+    background-color: #fdf1e5;
+    border-radius: 40px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .text-product h1 {
+    /* border: #000 1px solid; */
+    width: 100%;
+    font-size: 40px;
+    line-height: 95%;
+  }
+  
+  .text-product p {
+    /* border: #000 1px solid; */
+    width: 100%;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .content-product .button {
+    /* border: #000 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .button ul {
+    gap: 10px;
+  }
+  
+  .button .btn-shopee {
+    width: 100%;
+    border-radius: 100px;
+  }
+  
+  .btn-shopee button {
+    width: 210px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #6d6d6d;
+    border-top: #000 1px solid;
+    border-left: #000 1px solid;
+    border-right: #000 4px solid;
+    border-bottom: #000 4px solid;
+    background-color: #ffdebb;
+    cursor: pointer;
+  }
+  
+  .button .btn-chat-admin {
+    width: 100%;
+    border-radius: 100px;
+  }
+  
+  .btn-chat-admin button {
+    width: 210px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #6d6d6d;
+    border-top: #000 1px solid;
+    border-left: #000 1px solid;
+    border-right: #000 4px solid;
+    border-bottom: #000 4px solid;
+    background-color: #f8baad;
+    cursor: pointer;
+  }
+
+
+  /* landing-page kelebihan buku !!!!!!!!!!!!! */
+    
+  .kelebihan-buku .headers {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .kelebihan-buku .list-kelebihan {
+    /* border: #000 1px solid; */
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .list-kelebihan ul {
+    list-style: none;
+    width: 100%;
+    /* border: red 1px solid; */
+  }
+  
+  .list-kelebihan ul li {
+    /* border: red 1px solid; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  
+  .list-kelebihan .text1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #f9c2c5;
+    gap: 3.5rem;
+    height: 40px;
+  }
+  
+  .list-kelebihan h1 {
+    /* border: aqua 1px solid; */
+    font-size: 24px;
+  }
+  
+  .list-kelebihan p {
+    /* border: aqua 1px solid; */
+    font-size: 20px;
+  }
+  
+  .list-kelebihan .text2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffdebb;
+    gap: 3rem;
+    height: 40px;
+  }
+  
+  .list-kelebihan .text3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fdcfb7;
+    gap: 3rem;
+    height: 50px;
+  }
+  
+  .list-kelebihan .text4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #b3e1df;
+    gap: 3rem;
+    height: 40px;
+  }
+  
+  .list-kelebihan .text5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #b4cbea;
+    gap: 3rem;
+    height: 40px;
+  }
+
+
+/* 
+  landingpage bergabung!!!!!!!!!!!!!! */
+
+  .join {
+    margin-bottom: 60px;
+  }
+
+  .join h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+  
+  .join p {
+    margin-top: 10px;
+    font-size: 25px;
+    width: 100%;
+  }
+
+/* 
+  landing-page testimoni!!!!!!!!!! */
+
+  .testimoni{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .testimoni ul {
+    /* border: #000 1px solid; */
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+  }
+  
+  .testimoni ul li {
+    /* border: #000 1px solid; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testimoni .text {
+    width: 90%;
+    height: 552px;
+    padding: 50 px;
+    border: #f8baad 5px solid;
+    border-radius: 40px;
+    font-size: 22px;
+    font-weight: 300;
+  }
+  
+  .content-testimoni {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimoni .foto {
+    width: 90%;
+    height: 600px;
+    padding: 15px;
+    background-color: #f8e2d5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .foto ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+  }
+  
+  .foto img {
+    border-radius: 20px;
+    margin-top: 35px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+  }
+  
+  .foto p {
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .testimoni .btn-testimoni {
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+  }
+  .testimoni .button-kiri {
+    width: 120px;
+    height: 120px;
+    background-color: #f8baad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .button-kiri img {
+    width: 60px;
+    height: 104px;
+    background-color: #f8baad;
+  }
+  
+  .testimoni .button-kanan {
+    /* border: #000 1px solid; */
+    width: 120px;
+    height: 120px;
+    background-color: #f8e2d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .button-kanan img {
+    width: 60px;
+    height: 104px;
+    background-color: #f8e2d5;
+  }
+  .btn-testimoni ul{
+    padding: 0;
+  }
+
+
+
+  /* foooter!!!!!!!!!!! */
+
+  .penutup {
+    margin-top: 1%;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    background-color: #fff9f1;
+  }
+  .penutup .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: #000 1px solid; */
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    background-image: #fff9f1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .penutup ul {
+    list-style: none;
+    display: flex;
+    flex: 0.95 ;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .penutup ul li {
+    display: flex;
+  }
+  
+  .footer img {
+    width: 273.74px;
+    height: 80px;
+  }
+  
+  .footer button {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    border-top: #000 1px solid;
+    border-left: #000 1px solid;
+    border-right: #000 4px solid;
+    border-bottom: #000 4px solid;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #f8e2d5;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+/* responsifff!!!!!!!!!!!!!! */
+@media screen and (max-width: 1000px){ 
+
+
+  /* navbar!!!!!!!!!!!!!!!! */
+
+  nav{
+    display: none;
+  }
+
+  /* landing-page content!!!!!!!!! */
+  .awalan {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .awalan ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .awalan img {
+    /* max-width: 100%; */
+    width: 90%;
+  }
+
+  .awalan .img-card {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    border-radius: 20px;
+  }
+
+  .awalan .title {
+    width: 100%;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke: 2px #896464;
+    font-weight: bold;
+    line-height: 60px;
+    letter-spacing: 3%;
+    color: white;
+  }
+
+  .awalan .sub-title {
+    width: 100%;
+    margin-top: 24px;
+    font-size: 20px;
+  }
+
+  .awalan ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+  /* landing-page video!!!!!!!!!! */
+  .video-product {
+    width: 83%;
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .kotak {
+    width: 100%;
+}
+
+  .video-product button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  .btn-play img {
+    width: 100%;
+  }
+
+
+  /* promosiiiiiiii */
+  .promosi-buku{
+    width: 105%;
+  }
+  .promosi-buku ul{
+ 
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+  .promosi-buku ul li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .promosi-buku h1 {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+  }
+
+  .promosi-buku button {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: #d4e4f4;
+    border-right: #85acd4 4px solid;
+    border-bottom: #85acd4 4px solid;
+    cursor: pointer;
+
+    /* margin-right: 100%; */
+  }
+
+
+
+  /* kontent pertanyaan */
+  .content-pertanyaan {
+    margin-top: 40px;
+    width: 85%;
+    
+  }
+
+  .content-pertanyaan ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-pertanyaan ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-pertanyaan .image {
+    width: 100%;
+  }
+
+  .content-pertanyaan img {
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+  }
+
+  .content-pertanyaan .text-content {
+    width: 85%;
+    height: 450px;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #fdf9e5;
+    border-radius: 40px;
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+  }
+
+  /* container-12!!!!!!!!!! */
+  .features-1 ul,
+.features-2 ul{
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 80px;
+  padding: 0;
+}
+.features-2 ul,
+.features-2 ul{
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+}
+
+.container-1 .header-1{
+  margin: 0;
+  font-size: 16;
+
+}
+.container-2 .header-2{
+  margin: 0;
+  font-size: 16;
+
+}
+
+
+
+  /* berkumpulll!!!!!!!!!!!!! */
+  .berkumpul {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .berkumpul ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .berkumpul .images-berkumpul {
+    width: 100%;
+  }
+
+  .images-berkumpul img {
+    width: 100%;
+    height: 579px;
+  }
+
+  .berkumpul h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #896464;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .berkumpul p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  /* kontent bertanya!!!!!!!!!!! */
+  .content-bertanya {
+    /* border: #000 1px solid; */
+    width: 50%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .content-bertanya ul {
+    /* border: #000 1px solid; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .content-bertanya ul li {
+    /* border: #000 1px solid; */
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-bertanya p {
+    /* border: #000 1px solid; */
+    width: 80%;
+    font-size: 24px;
+    margin-left: 10%;
+  }
+
+  .content-bertanya .img-bertanya {
+    width: 85%;
+    justify-content: center;
+  }
+
+  .img-bertanya img {
+    width: 100%;
+  }
+
+
+
+
+
+
+/* 
+  kontent-buku!!!!!!!!!!!!!!!! */
+  .content-buku {
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #6d6d6d;
+  }
+
+  .content-buku ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+  }
+  
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .kotak-putih {
+    /* border: #000 1px solid; */
+    width: 100%; 
+    height: 465px;
+    background-color: white;
+    position: relative;
+  }
+  
+  .kotak-1,
+  .kotak-2,
+  .kotak-3,
+  .kotak-4,
+  .kotak-5 {
+    width: 32%; 
+    height: 32%; 
+    background-color: #d9d9d9;
+    position: absolute;
+    border-radius: 10px;
+  }
+  
+  .kotak-1 { left: 0; top: 0; }
+  .kotak-2 { left: 0; top: 33.333%; }
+  .kotak-3 { left: 0; top: 66.667%; }
+  .kotak-4 { left: 33.333%; top: 66.667%; }
+  .kotak-5 { left: 66.667%; top: 66.667%; }
+  .kotak-6 {
+    width: 63.6%; 
+    height: 65%; 
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 35%; 
+    top: 0;
+    border-radius: 10px;
+  }
+
+  .content-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-product {
+    width: 85%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  .text-product h1 {
+    /* border: #000 1px solid; */
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .text-product p {
+    /* border: #000 1px solid; */
+    width: 100%;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .content-product .button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .button > ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button > ul li {
+    display: flex;
+  }
+
+  .button .btn-shopee {
+    width: 100%;
+    border-radius: 100px;
+  }
+
+  .btn-shopee button {
+    width: 210px;
+    height: 70px;
+    border-radius: 100px;
+    border-left: #000 1px solid;
+    border-top: #000 1px solid;
+    border-right: #000 4px solid;
+    border-bottom: #000 4px solid;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #6d6d6d;
+    background-color: #ffdebb;
+    cursor: pointer;
+  }
+
+  .button .btn-chat-admin {
+    width: 100%;
+    border-radius: 100px;
+  }
+
+  .btn-chat-admin button {
+    width: 210px;
+    height: 70px;
+    border-radius: 100px;
+    border-left: #000 1px solid;
+    border-top: #000 1px solid;
+    border-right: #000 4px solid;
+    border-bottom: #000 4px solid;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #6d6d6d;
+    background-color: #f8baad;
+    cursor: pointer;
+  }
+
+
+
+
+  /* kelebihan buku!!!!!!! */
+  .kelebihan-buku {
+    width: 100%;
+    margin-top: 40px;
+    color: #6d6d6d;
+  }
+
+
+  .list-kelebihan ul {
+    width: 100%;
+    padding: 0;
+  }
+
+  .list-kelebihan ul li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+  }
+
+  .list-kelebihan .text1 {
+    gap: 2rem;
+  }
+
+  .list-kelebihan h1 {
+    font-size: 30px;
+  }
+
+  .list-kelebihan p {
+    /* border: aqua 1px solid; */
+    font-size: 15px;
+  }
+
+  .list-kelebihan .text2 {
+    gap: 2rem;
+  }
+
+  .list-kelebihan .text3 {
+    gap: 2rem;
+  }
+
+  .list-kelebihan .text4 {
+    gap: 2rem;
+  }
+
+  .list-kelebihan .text5 {
+    gap: 2rem;
+  }
+
+
+
+/* 
+  joinnnn!!!!!!!!! */
+  .join {
+    width: 100%;
+    border-radius: 20px;
+    height: 434.18px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #6d6d6d;
+    background-color: #fdf1e5;
+  }
+
+  .join .title {
+    width: 90%;
+  }
+  .join h1 {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .join .subtitle {
+    width: 90%;
+  }
+
+  .join p {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+  }
+
+
+
+
+
+  /* testimoni!!!!!!!!! */
+  .testimoni {
+    width: 100%;    
+
+  }
+
+  .testimoni ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 1rem;
+  }
+
+  .content-testimoni{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 80px;
+  }
+
+  .testimoni .text {
+    width: 100%;
+    height: 700px;
+    padding: 40px;
+    font-size: 16px;
+  }
+
+  .content-testimoni {
+    display: flex;
+    flex-direction: row;
+  }
+  .testimoni .foto {
+    width: 100%;
+    height: 350px;
+    background-color: #f8e2d5;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foto img {
+    border-radius: 20px;
+    margin-top: 15px;
+    width: 200px;
+    height: 300px;
+  }
+
+  .foto p {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+
+  .testimoni .btn-testimoni {
+    /* border: #000 1px solid; */
+    margin-top: 50px;
+    height: auto;
+  }
+  .testimoni .button-kiri {
+    /* border: #000 1px solid; */
+    width: 130px;
+    height: 100%;
+    background-color: #f8baad;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+
+  }
+
+  .button-kiri img {
+    width: 60px;
+    height: 104px;
+    background-color: #f8baad;
+  }
+
+  .testimoni .button-kanan {
+    /* border: #000 1px solid; */
+    width: 130px;
+    height: 100%;
+    background-color: #f8e2d5;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  .button-kanan img {
+    width: 60px;
+    height: 104px;
+    background-color: #f8e2d5;
+  }
+  .btn-testimoni ul{
+    gap: 3rem;
+  }
+
+
+footer{
+  display: none;
+}
+
+
+/* bottom-bar !!!!!!!!!!!!!! */
+.bottom-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 20px;
+}
+
+.bottom-bar > div {
+  margin: 0.8rem;
+}
+
+.button-menu-list {
+  display: flex;
+  width: 10%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-menu-list img {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
+.bottom-link {
+  position: fixed;
+  border-radius: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  margin-left: auto;
+  z-index: 5;
+  background-color: #f8baad;
+}
+
+.bottom-link ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.bottom-link ul li {
+  list-style-type: none;
+}
+
+.bottom-link ul > li {
+  margin: 1.3rem;
+}
+
+.icon-cancel {
+  width: 25%;
+  transform: translateX(-50%, -50%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  border: none;
+}
+
+.icon-cancel img {
+  width: 100%;
+}
+
+.link a {
+  position: relative;
+  padding-bottom: 0.75rem;
+  color: black;
+}
+
+.link a:hover {
+  font-weight: bold;
+}
+
+.link a::after {
+  font-weight: bold;
+}
+
+.button-belisekarang {
+  display: flex;
+  position: relative;
+}
+
+.asset-beli-sekarang {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  /* top: 0;
+      left: 0; */
+}
+
+.asset-beli-sekarang img {
+  width: 50px;
+}
+
+.button-belisekarang ul {
+  display: flex;
+}
+
+.button-belisekarang ul li {
+  /* border: aqua 1px solid; */
+  display: flex;
+  flex-direction: row;
+  position: inherit;
+}
+
+.btn-beli {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 50px;
+  border-radius: 100px;
+  border-top: #000 1px solid;
+  border-left: #000 1px solid;
+  border-right: #000 4px solid;
+  border-bottom: #000 4px solid;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #fff9f1;
+  display: flex;
+}
+
+}
+
+@media screen and (max-width: 1450px) and (min-width: 600px){ 
+
+  .testimoni .text{
+    font-size: 18px;
+  }
+}
+
+
+
+@media screen and (max-width: 600px){
+.video-product{
+  width: 90%;
+  margin-left: 20px;
+  
+
+}
+.testimoni .btn-testimoni {
+  /* border: #000 1px solid; */
+  margin-top: 30px;
+  margin-left: 10px;
+  height: auto;
+}
+}
+@media screen and (max-width: 630px){
+  .testimoni .btn-testimoni {
+    /* border: #000 1px solid; */
+    margin-top: 30px;
+    margin-left: 60px;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 1000px){
+
+  .bottom-bar{
+    display: none;
+  }
+}

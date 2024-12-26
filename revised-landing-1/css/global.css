@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.header-logo img {
+  width: 150px;
+  height: 50px;
+  height: auto;
+}
+
+nav {
+  /* border: #000 2px solid; */
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+
+/* 
+landingpage awal */
+.awalan {
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    width: 100%;
+    margin-top: 40px;
+    flex-direction: column;
+    background-image: url(/assets/image.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+/* 
+  landingpage promosi buku!!!!!!! */
+  .promosi-buku {
+    /* border: #000 1px solid; */
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #f8baad, #fdd4d2);
+  }
+
+
+  .content-pertanyaan {
+    /* border: #000 1px solid; */
+    margin-top: 40px;
+    width: 85%;
+  }
+
+
+  .container-1,
+.container-2 {
+  /* border: #000 1px solid; */
+  width: 90%;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+
+.berkumpul {
+    width: 100%;
+    /* border: #000 1px solid; */
+    margin-top: 50px;
+  }
+
+
+
+  .content-bertanya {
+    width: 100%;
+    /* border: #000 1px solid; */
+    margin-top: 30px;
+    background-color: #f4f1d6;
+    border-radius: 40px;
+    position: relative;
+  }
+  
+
+
+  .content-buku {
+    /* border: #000 1px solid; */
+    margin-top: 40px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #6d6d6d;
+  }
+
+
+  .kelebihan-buku {
+    width: 100%;
+    /* border: #000 1px solid; */
+    margin-top: 40px;
+    color: #6d6d6d;
+  }
+
+
+
+  .join {
+    /* border: #000 1px solid; */
+    width: 100%;
+    border-radius: 20px;
+    height: 434.18px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #6d6d6d;
+    background-color: #fdf1e5;
+  }
+
+  .testimoni {
+    /* border: #000 1px solid; */
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/* section!!!!!!!!!!!!!!!!!!!!!!! */
+.content {
+    justify-content: center;
+    width: 85%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .video-product {
+    /* border: #000 1px solid; */
+    width: 85%;
+    margin-top: 20px;
+}
+    
+
+
+.pertanyaan {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.image {
+    max-width: 80%;
+    height: 100%;
+  }
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.kumpul{
+    width: 85%;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+.container1 {
+  display: flex;
+  justify-content: center; /* Menyusun konten secara horizontal di tengah */
+  align-items: center; /* Menyusun konten secara vertikal di tengah */
+  width: 90%;
+}
+
+
+@media screen and (max-width: 1000px){ 
+
+
+    /* navbar!!!!!!!!!!!!!!!! */
+  
+    nav{
+      display: none;
+    }
+  
+}
+
+@media screen and (min-width: 1600px){
+
+}
